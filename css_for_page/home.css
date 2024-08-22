@@ -1,0 +1,174 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.title-logo img {
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.title-logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Highlighted link for the active page */
+.nav-links .active {
+    color: #ff6600; /* Highlight color */
+}
+
+.profile-logo,
+.logout-logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-logo {
+    margin-left: auto;
+    margin-right: 10px; /* Space between profile logo and logout logo */
+}
+
+.logout-logo {
+    display: flex;
+    margin-left: 10px; /* Space between logout logo and profile logo */
+}
+
+.logout-logo img {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+/* Default logo styling */
+.default-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.default-logo img {
+    height: 100px;
+}
+
+/* Circle images section */
+.circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.circle-item {
+    width: 150px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.circle-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Scrolling text container */
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrolling text styling */
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    color: #ffcc00; /* Decorative color */
+    font-family: 'Courier New', Courier, monospace; /* Decorative font */
+    font-size: 24px;
+    font-weight: bold;
+    animation: scroll 10s linear infinite;
+}
+
+/* Animation for scrolling text */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Section below experts */
+.highlight-section {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.highlight-section img {
+    max-width: 100%;
+    max-height: 10%;
+    height: 400px;
+    width:100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.highlight-section h2 {
+    font-size: 28px;
+    color: #ff6600; /* Highlighted text color */
+    font-family: 'Georgia', serif; /* Decorative font for highlighted text */
+    font-weight: bold;
+}
+
